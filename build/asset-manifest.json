@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oc-vote-info/static/css/main.0e64b41a.css",
+    "main.js": "/oc-vote-info/static/js/main.27746d9d.js",
+    "index.html": "/oc-vote-info/index.html",
+    "main.0e64b41a.css.map": "/oc-vote-info/static/css/main.0e64b41a.css.map",
+    "main.27746d9d.js.map": "/oc-vote-info/static/js/main.27746d9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e64b41a.css",
+    "static/js/main.27746d9d.js"
+  ]
+}

@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.header {
+  text-align: center;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+}
+.disclaimer {
+  color: gray;
+  margin-top: 0.5rem;
+}
+.alert {
+  margin-top: 1rem;
+  background-color: #fff8dc;
+  border-left: 5px solid orange;
+  padding: 1rem;
+  border-radius: 6px;
+  position: relative;
+  font-size: 0.95rem;
+}
+.alert .close {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border: none;
+  background: transparent;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #999;
+}
+.hero {
+  margin-top: 2rem;
+  text-align: center;
+  background: #fff3e0;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+.hero h2 {
+  margin-bottom: 0.5rem;
+  color: #d84315;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.card h3 {
+  margin-top: 0;
+}
+.card a {
+  color: #ff6600;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+.footer a {
+  color: #d84315;
+  text-decoration: none;
+}
+.footer em {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
